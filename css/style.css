@@ -1,0 +1,131 @@
+header {
+    text-align: center;
+    padding: 30px 0 0;
+    font-weight: 800;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    /* for text glow */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+
+body {}
+
+.mar_bottom {
+    margin-bottom: 50px;
+}
+
+.box1 {
+    margin: 50px 0px 0px;
+    padding: 20px 0px;
+    min-height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.box1 h2 {
+    padding-bottom: 20px;
+}
+
+.box1 p {
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.box1 .c_btn {
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box3 p {
+    color: rgb(195, 0, 255);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.f_f {
+    font-family: serif;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+.box3 {
+    width: 200px;
+    height: 90px;
+    background-color: rgb(71, 255, 86);
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.box4 {
+    width: 90px;
+    border-radius: 0%;
+}
+
+.box5 {
+    width: 200px;
+    border-radius: 0%;
+}
+
+.box6 {
+    width: 200px;
+    background-color: rgb(159, 210, 255);
+    border: none;
+    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+.box7 {
+    border-radius: 50%;
+}
+
+.blub {
+    padding: 0px 30px;
+}
+
+.coffe {
+    padding: 0px 20px;
+    width: 218px;
+}
+
+.hp_sd {
+    padding: 0px 20px;
+    width: 215px;
+}
+
+.dashed {
+    text-align: end;
+}
+
+.box8 {
+    margin-top: 50px;
+    padding: 20px;
+    min-height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box8 h2 {
+    text-align: center;
+}
+
+.button_box {
+    width: 185px;
+}
+
+.box8 button {
+    margin: 20px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box8 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}

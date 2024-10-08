@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!--Favicon(page logo) ***must for website***-->
+    <link rel="icon" href="images/fav_icon logo.ico" type="image/x-icon">
+    <title>Java Script template</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>JAVA SCRIPT</h1>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <div class="container">
+        <div class="mar_bottom">
+            <div class="row">
+
+
+                <!-- item1 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#1</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="textChange()">Text Change</button>
+                            <p id="tc" class="mb-0">Wass'up</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item1 end -->
+
+
+                <!-- item2 start-->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#2</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="showTime()">Show Time</button>
+                            <p id="st" class="mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item2 end -->
+
+
+
+                <!-- item3 start-->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#3</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="colorChange()">Change Color</button>
+                            <p id="clr" class="mb-0">BAPREH!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item3 end -->
+
+
+
+                <!-- item4 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#4</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="fontSize()">Font Size</button>
+                            <p id="f_size" class="mb-0">i phone</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item4 end -->
+
+
+                <!-- item5 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#5</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="fontFamily()">Font Family</button>
+                            <p class="f_f" id="ff">Homo Sapiens</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item5 end -->
+
+
+
+                <!-- item6 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#6</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="displayShow()">show</button>
+                            <button type="button" class="btn btn-info c_btn" onclick="displayHide()">hide</button>
+                            <div class="box3 mx-auto" id="boxshow"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item6 end -->
+
+
+                <!-- item7 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#7</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="raidus()">raidus</button>
+                            <div class="box3 box5 mx-auto" id="raidus"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item7 end -->
+
+
+                <!-- item8 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#8</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="circle()">circle</button>
+                            <div class="box3 box4 mx-auto" id="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item8 end -->
+
+
+
+                <!-- item9 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#9</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="border()">Border</button>
+                            <div class="box3 box4 box6 mx-auto" id="border"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item9 end -->
+
+
+
+                <!-- item 10 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#10</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="radius_tl_br()">Top-left Bottom-right</button>
+                            <div class="box3 box5 mx-auto" id="tl_br"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 10 end -->
+
+
+
+                <!-- item 11 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#11</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="radius_tb_bl()">top-right  bottom-left</button>
+                            <div class="box3 box5 mx-auto" id="tr_bl"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 11 end -->
+
+
+
+                <!-- item 12 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#12</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="squreBox()">Square Box</button>
+                            <div class="box3 box4 box7 mx-auto" id="sqr_box"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 12 end -->
+
+
+
+                <!-- item13 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#13</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="underLine()">Underline</button>
+                            <p>HELLO. <br> <span id="undr">Hi.</span> <br>BYE.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item13 end -->
+
+
+                <!-- item14 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#14</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="mark()">Mark</button>
+                            <p>BBA <br> <span id="mark">CSE, CS</span> <br> Pharmacy</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item14 end -->
+
+
+
+                <!-- item15 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#15</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="uppcase()">uppcase</button>
+                            <button type="button" class="btn btn-info c_btn" onclick="lowcase()">lowcase</button>
+                            <h4 id="upp_lw">kazi arafat bin ibrahim</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 15 end -->
+
+
+
+                <!-- item 16 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#15</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="alartBox()">Alert</button>
+                            <P>DA HOOD</P>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 16 end -->
+
+
+
+                <!-- item 17 start -->
+                <div class="col-lg-4">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#17</h2>
+                            <button type="button" class="btn btn-success c_btn" onclick="blubOn()()">On</button>
+                            <img class="blub" id="blub" src="images/qus.png" alt="Java Script template">
+                            <button type="button" class="btn btn-danger c_btn" onclick="blubOff()">Off</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 17 end -->
+
+
+
+                <!-- item 18 start -->
+                <div class="col-lg-4">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#18</h2>
+                            <button type="button" class="btn btn-success c_btn" onclick="coldCoffee()">Cold</button>
+                            <img class="coffee" id="coffee" src="images/qus.png" alt="Java Script template">
+                            <button type="button" class="btn btn-danger c_btn" onclick="hotCoffee()">Hot</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 18 end -->
+
+
+
+                <!-- item 19 start -->
+                <div class="col-lg-4">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#19</h2>
+                            <button type="button" class="btn btn-success c_btn" onclick="hp_sd()">Happy</button>
+                            <img class="hp_sd" id="happy" src="images/qus-removebg-preview.png" alt="Java Script template">
+                            <button type="button" class="btn btn-danger c_btn" onclick="sd_hp()">Sad</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 19 end -->
+
+
+
+                <!-- item 20 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#20</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="line_throug()">Line Through</button>
+                            <p id="line_throug">What the hell!!!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 20 end -->
+
+
+
+                <!-- item 21 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#21</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="overline()">OverLine</button>
+                            <p id="overline">Flying Jatt</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 21 end -->
+
+
+
+                <!-- item 22 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#22</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="lettterSpacing()">Letter Specing</button>
+                            <p id="lettterSpacing">ARAFAT</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 22 end -->
+
+
+
+                <!-- item 23 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#23</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="wordSpecing()">Word Specing</button>
+                            <p id="wordSpacing">Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 23 end -->
+
+
+
+                <!-- item 24 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#24</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="textAlingStart()">Text Align Left</button>
+                            <p id="textAlignStrat">Amplifier</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 24 end -->
+
+
+
+                <!-- item 25 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#25</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="textAlignEnd()">Text Align Right</button>
+                            <p id="textAlignEnd">HER</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 25 end -->
+
+
+
+
+                <!-- item 26 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box8">
+                            <h2 class="mb-0">#26</h2>
+                            <div class="button_box mx-auto">
+                                <button type="button" class="btn btn-info c_btn" onclick="textAlignCenter()">Text Align Center</button>
+                            </div>
+                            <p id="textAlignCenter">Woofer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 26 end -->
+
+
+
+
+                <!-- item 27 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#27</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="fontWeight()">Font Weight</button>
+                            <p id="font_weight">Thermaltake</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 27 end -->
+
+
+
+
+                <!-- item 28 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#28</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="bdrTop()">Dotted Border top</button>
+                            <p id="bdrTop">Brac University</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 28 end -->
+
+
+
+                <!-- item 29 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#29</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="dotid()">Border</button>
+                            <p id="brdrDoted">Brac University</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 29 end -->
+
+
+
+                <!-- item 30 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#30</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="solid()">Solid</button>
+                            <p id="solid">Brac University</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 30 end -->
+
+
+
+
+                <!-- item 31 start -->
+                <div class="col-lg-3">
+                    <div class="function">
+                        <div class="box1 text-center">
+                            <h2 class="mb-0">#31</h2>
+                            <button type="button" class="btn btn-info c_btn" onclick="bottom()">Bottom</button>
+                            <p id="bottom">Brac University</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 31 end -->
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
